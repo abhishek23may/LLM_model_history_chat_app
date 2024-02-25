@@ -11,7 +11,7 @@ from langchain.vectorstores import FAISS
 
 # Load environment variables from 'api.env'
 load_dotenv()
-api_key = os.getenv("Google_API_key")
+GOOGLE_API_KEY = os.getenv("Google_API_key")
 
 def get_pdf_text(pdf_file_name):
     """Reads text from a PDF file."""
