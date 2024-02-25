@@ -9,8 +9,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 from langchain.vectorstores import FAISS
 
-# Load environment variables from 'api.env'
-load_dotenv()
+Google_API_key = 'AIzaSyDMunIfqw5QfJSxZXVpJs1s0FvE5cG4lig'
 GOOGLE_API_KEY = os.getenv("Google_API_key")
 
 def get_pdf_text(pdf_file_name):
